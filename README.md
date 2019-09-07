@@ -29,9 +29,9 @@ Bonus requirements:
 
    •Or other roles determined by you:
 
-   ​	"stupid" user
+   ​	usually: project manager, tester
 
-   ​	project manager
+   ​	Special thanks for idea from @[MatthewCYM](https://github.com/MatthewCYM) : "stupid" user, PPTer
 
    ​	etc.
 
@@ -64,6 +64,8 @@ A: You may need additional knowledge of file system which you will learn in Oper
 You can refer to  www.overleaf.com as your guidance (actually it is our oracle; feel free to reproduce any of its features; note that it might be hard to access these days due to...; that is also the reason why we want to build another one for us).
 
 There is a community version Overleaf deployed on http://10.20.83.122:8099, you can access it through the LAN if you cannot access www.overleaf.com. And we provide a test account:{email: test@gmail.com, passwd: lab604}.
+
+If you want to deploy the community version of Overleaf in your server, you can refer to [Deploy Guidance](https://github.com/ZexinLee/SUSTech-Doc-Guidance/blob/master/LocalShareLatex.md).
 
 !!!Attention: Overleaf has some open-source versions on Github(https://github.com/overleaf/overleaf), you can read the code for realizing the details of how to implement certain feature but **Don't simply Copy & Paste the code**. 
 
