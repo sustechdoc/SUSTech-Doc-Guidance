@@ -47,16 +47,16 @@ sudo vim docker-compose.yml
 
 ```yaml
 ports:
-	- $PORT:80 # Default configuration is 80:80, may cause port confilting.
+  - $PORT:80 # Default configuration is 80:80, may cause port confilting.
 
 # local directory
 volumes:
-	- /home/docker/sharelatex:/var/lib/sharelatex
+  - /home/docker/sharelatex:/var/lib/sharelatex
 
 # Attention: add new texlive version to PATH for fully installation for new version of texlive path before old version path.(.../textlive/2019/$platform)
 environment:
-	- PATH: /usr/localsbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/texlive/2019/bin/x86_64-linux:/usr/local/texlive/2017/bin/x86_64-linux
-	
+  - PATH: /usr/localsbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/texlive/2019/bin/x86_64-linux:/usr/local/texlive/2017/bin/x86_64-linux
+
 # Rendering configuration: default is classical community style of Overleaf.
 # SHARELATEX_APP_NAME: Our ShareLaTeX
 # SHARELATEX_NAV_TITLE: Our ShareLaTeX Instance
@@ -67,10 +67,10 @@ environment:
 # Mongo/Redis directory
 # mongo
 volumes:
-	- $MongoDir:/data/db
+  - $MongoDir:/data/db
 # redis
 volumes:
-	- $RedisDir:/data
+  - $RedisDir:/data
 ```
 
 In the ShareLatex dir:
