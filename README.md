@@ -47,13 +47,13 @@ Bonus requirements:
 
 Q1: How much workload do we expect to spend on this project?
 
-A: Based on previous experience, about 30 man-day is needed to finish basic part. If you want to get bonus, you may need extra work time.
+A: Based on previous experience, about **30 man-day** is needed to finish basic part. If you want to get bonus, you may need extra work time.
 
 Q2: What should we do before mid-term check?
 
 A: We will check your progress referring to initial proposal in mid-term check to ensure that you are able to finish the work in the end of this semester. If you are too slow in progress, we will suggest you to reduce some requirements although it may influence your final grades.
 
-Q3: How to solve the conflict of on-line doc when several people modify the same position?
+Q3: How to solve the conflict of on-line doc when several people modify the doc at the same position?
 
 A: You may need additional knowledge of file system which you will learn in Operating System class in next semester. Besides, you can refer to open-source demo to find a feasible solution. Feel free to discuss the design if you want.
 
