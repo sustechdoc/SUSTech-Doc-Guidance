@@ -33,6 +33,8 @@ Bonus requirements:
 
    ​	Special thanks for idea from @[MatthewCYM](https://github.com/MatthewCYM) : "stupid" user, PPTer
 
+   ​		(additional explanation: "stupid" user is from the idea of [A/B test](https://www.jianshu.com/p/a5dfa5e6c721), sometimes we need a user without domain knowledge to judge to implement which feature to make a better product. PPTer is a newly made phrase by CYM, means the one who is in charge of documents writing and slides making. Although the PPTer may contribute less to coding, he/she has the duty and responsibility to show your work better.)
+
    ​	etc.
 
 2. Find related work
