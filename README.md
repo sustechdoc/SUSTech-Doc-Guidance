@@ -9,13 +9,29 @@ Build a **on-line sharing doc** website such that SUSTech users can access and e
 Basic requirements: 
 
 1. The website should allow multiple formats, e.g., latex editing (should be able to automatically compile), plain text editing. 
+
+   ​	(additional explanation: To get basic points, at least the website should support Markdown and plain text. If the website can support LaTeX, you may get full marks in this part.)
+
 2. For simplicity, you can allow that when one user is editing, other users can only read.
+
+   ​	(additional explanation: To get basic points, you should assure the robustness and resilient of the basic function of your website, i.e.,your website must pass our test.)
+
 3. You should also include at least certain fundamental management options, e.g., deleting files, cloning files.
+
+   ​	(additional explanation: To get basic points, the website should support delete files, cloning files. If the website can generate project by analyzing uploaded zip, you can get full mark.)
+
+4. User can choose different themes to customize the website.
+
+5. User can classify projects(e.g. by creating group or by authority).
+
+6. User can search full-text.
 
 Bonus requirements:
 
-1. You would get a big bonus if you can make it a thorough on-line sharing doc, i.e., multiple users can edit the files at the same time.
-2. You would get a big bonus if you can realize the automatic dependency building of libraries (especially for latex edit-ting).
+1. A big bonus: Make it a thorough on-line sharing doc, i.e., multiple users can edit the files at the same time.
+2. A big bonus: Realize the automatic dependency building of libraries (especially for latex edit-ting).
+3. bonus: User can initialize project folder with template(e.g. SUSTech homework template, IEEE conference paper template, etc.)
+4. bonus: User can use GUI to implement as buttons for macro definition (e.g. Button **B** to make \textbf{} around text).
 
 # How to start
 
@@ -45,7 +61,7 @@ Bonus requirements:
 
    •Or other open-source solution
 
-## Q & A
+# Q & A
 
 Q1: How much workload do we expect to spend on this project?
 
